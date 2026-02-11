@@ -15,7 +15,6 @@ import { Snippet } from "app/(post)/components/snippet";
 import { Caption } from "app/(post)/components/caption";
 import { Callout } from "app/(post)/components/callout";
 import { YouTube } from "app/(post)/components/youtube";
-import { WDYGantt as Gantt } from "app/(post)/components/gantt";
 import { Ref, FootNotes, FootNote } from "app/(post)/components/footnotes";
 import { Blockquote as blockquote } from "app/(post)/components/blockquote";
 
@@ -47,6 +46,5 @@ export function useMDXComponents(components: {
     Ref,
     FootNotes,
     FootNote,
-    Gantt,
   };
 }
